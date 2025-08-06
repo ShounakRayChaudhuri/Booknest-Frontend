@@ -1,8 +1,48 @@
-# React + Vite
+# 📚 BookNest - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BookNest is a modern book listing web application built with React and Tailwind CSS. Users can browse books, view details, and read reviews. 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔗 Live Website
+
+[Click here to visit BookNest](booknest-frontend-nine.vercel.app)
+
+---
+
+## 🚀 Features
+
+- View available books by category
+- Detailed book view with About, Course, and Review tabs
+- Custom user login/signup modal
+- Responsive design with Tailwind CSS
+- Connected to a live backend on Render
+
+---
+
+## 🔐 Authentication
+
+- **Custom authentication system**
+- On login, user credentials are verified via backend
+- On success, user details are stored in `localStorage`
+- `AuthContext` (via React Context API) provides access to user across the app
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React (Vite)
+- 🎨 Tailwind CSS
+- 🔗 Axios (for API calls)
+- 🌍 Render (for backend API)
+- **React Hot Toast**
+
+---
+
+## 🧾 Installation & Setup
+
+```bash
+git clone https://github.com/your-username/booknest-frontend.git
+cd booknest-frontend
+npm install
+npm run dev
