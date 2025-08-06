@@ -6,7 +6,7 @@ BookNest is a modern book listing web application built with React and Tailwind 
 
 ### 🔗 Live Website
 
-[Click here to visit BookNest](booknest-frontend-nine.vercel.app)
+[Click here to visit BookNest](https://booknest-frontend-nine.vercel.app)
 
 ---
 
