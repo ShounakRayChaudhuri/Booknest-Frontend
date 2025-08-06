@@ -15,7 +15,7 @@ const SearchResults = () => {
   useEffect(() => {
     const fetchBooks = async () => {
       try {
-        const res = await axios.get("http://localhost:4002/book");
+        const res = await axios.get("https://booknest-backend-t8ml.onrender.com/book");
         const allBooks = res.data;
 
         // Debug: log all book categories
